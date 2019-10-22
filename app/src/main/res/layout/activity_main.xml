@@ -18,11 +18,31 @@
         app:layout_constraintTop_toTopOf="parent"
         style="@style/my_font_style" />
 
-    <ImageView
-        android:contentDescription="@string/my_profile_pic"
-        android:id="@+id/imageView"
+    <EditText
+        android:id="@+id/editTextNickname"
+        style="@style/my_font_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/what_is_your_nickname"
+        android:inputType="textShortMessage|textPersonName|text|textEmailAddress"/>
+
+    <Button
+        android:id="@+id/buttonDone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:fontFamily="@font/roboto"
+        android:text="@string/done" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:contentDescription="@string/my_profile_pic"
         app:srcCompat="@drawable/cat" />
 
     <ScrollView
@@ -35,10 +55,11 @@
             android:orientation="vertical" >
 
             <TextView
-                style="@style/my_font_style"
                 android:id="@+id/textView3"
+                style="@style/my_font_style"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="543dp"
+                android:hint="@string/what_is_your_nickname"
                 android:text="@string/my_profile_desc" />
         </LinearLayout>
     </ScrollView>

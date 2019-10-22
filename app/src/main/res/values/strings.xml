@@ -2,6 +2,8 @@
     <string name="app_name">About Me</string>
     <string name="my_name">Liew Zhing Hoong</string>
     <string name="my_profile_pic">Profile Picture</string>
+    <string name="done">Done</string>
+
     <string name="my_profile_desc">
         \nEducation:
         \n\tSJK(C) Kampung Baru Ampang
@@ -24,4 +26,5 @@
         \n
         \n
     </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
 </resources>
