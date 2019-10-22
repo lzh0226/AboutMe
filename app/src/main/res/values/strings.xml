@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="my_name">Liew Zhing Hoong</string>
+    <string name="my_profile_pic">Profile Picture</string>
+    <string name="my_profile_desc">
+        \nEducation:
+        \n\tSJK(C) Kampung Baru Ampang
+        \n
+        \n\tSMK Taman Tasik
+        \n
+        \n\tTAR UC
+        \n
+        \n\tTuition teacher
+        \n
+        \n
+        \n
+        \n
+        \n
+        \n\tTAR UC
+        \n
+        \n\tTuition teacher
+        \n
+        \n
+        \n
+        \n
+    </string>
+</resources>
